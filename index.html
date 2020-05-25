@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search Users</title>
+</head>
+<body>
+    <h1>Search Users</h1>
+    <form action="">
+        <input type="text" name="inputUser" id="inputUser" placeholder="Type an user name.." spellcheck="false">
+    </form>
+    <div class="container-search">
+        <div class="filtered-users">
+            <h3>Users found (0)</h3>
+            <div class="filtered-card">
+                <div class="loaderUsers"></div>
+            </div>
+        </div>
+        <div class="exhibition">
+            <h3>Statistics</h3> 
+            <div class="statistics-card">
+                <div class="loader-card">
+                    <p>Total Male: 
+                        <span id="totalMale">
+                            <div class="loader"></div>
+                        </span>
+                    </p>
+                </div>
+                <div class="loader-card">
+                    <p>Total Female: 
+                        <span id="totalFemale">
+                            <div class="loader"></div>
+                        </span>
+                    </p>
+                </div>
+                <div class="loader-card">
+                    <p>Sum of ages: 
+                        <span id="totalAges">
+                            <div class="loader"></div>
+                        </span>
+                    </p>
+                </div>
+                <div class="loader-card">
+                    <p>Avarage ages: 
+                        <span id="avarageAges">
+                            <div class="loader"></div>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
