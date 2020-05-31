@@ -6,5 +6,5 @@
 </h2>
 
 <p align="center">
-Find your users in a simply way. 
+Find your users in a simply way.
 </p>
